@@ -1,0 +1,132 @@
+* {
+    margin: o;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.container-title {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    background-image: url('../images/banner/banner1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: right;
+    color: rgb(30, 123, 204);
+}
+
+.container h2 {
+    text-align: right;
+    padding-right: 130px;
+    line-height: 26px;
+}
+
+.container p {
+    text-align: right;
+    padding-right: 10px;
+    line-height: 16px;
+    margin-right: 40px;
+}
+
+.button {
+    background-color: rgb(232, 98, 9);
+    margin-right: 140px;
+    width: 130px;
+    font-size: 16px;
+    color: azure;
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid rgb(245, 220, 220);
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-right: 20px;
+}
+
+.images .text .images-title {
+    color: #151414;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    padding-right: 20px;
+    margin: 130px 0px 0px 40px
+}
+
+.text .images-description {
+    width: 400px;
+    height: 70px;
+    color: #757575;
+    font-size: 15px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+ol li {
+    font-size: 16px;
+    color: #757575
+}
+
+.head {
+    text-align: center;
+}
+
+.head .images-title {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    gap: 25px;
+    margin: 20px 130px 10px 630px;
+}
+
+.watch {
+    width: 1440px;
+    height: 400px;
+    background-image: url('../images/watch.png');
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 450px;
+    background: linear-gradient(90deg, #F15B22 0%)
+}
+
+.watch h1 {
+    text-align: left;
+    font-size: 55px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 130px 130px 10px 30px;
+
+}
+
+.watch .btn{
+    background-color: rgb(227, 225, 224);
+    margin-left: 80px;
+    width: 160px;
+    font-size: 19px;
+    color: rgb(232, 141, 5);
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 20px;
+    border: 2px solid rgb(245, 220, 220);
+
+}

@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    border: 0px;
+    font-family: 'Poppins';
+}
+
+header {
+    background-color: antiquewhite;
+    padding: 20px 100px;
+    /* border: 2px solid aqua; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 25px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3A3A3A;
+}
+.container-title{
+    display: flex;
+
+}
+.container-child{
+    width: 50%;
+    /* border: 2px solid red; */
+}
+.container-image{
+    width: 45%;
+    background-image: url("images/Circle\ design.svg") ;
+    background-repeat: no-repeat;
+    background-position: center cover;
+     /* border: 2px solid rgb(21, 110, 122); */
+}
+.container-image img{
+    background-position: center;
+    justify-content: right;
+}
+.container-child h1{
+    font-size: 48px;
+    font-weight: 700;
+    padding-left: 80px;
+    padding-top: 60px;
+    color: #3A3A3A;
+}
+.container-child p{
+    font-size: 16px;
+    font-weight: 600;
+    color: #3A3A3A;
+    line-height: 24px;
+    padding-left: 80px;
+}
+.btn-primary{
+    width: 150px;
+    height: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: brown;
+    border-radius: 20px;
+    margin: 10px 0px 0px 70px;
+}
+.website-logo{
+    display: flex;
+    /* border: 2px solid tomato; */
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;   
+} 
+.display-title{
+    text-align: center;
+}
+.display-content > .img-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+
+    
+
+  
+}
+.display-image{
+    width: 300px;
+    height: 380px;
+    margin-top: 10px;
+    margin-left: 20px;
+   
+}
+.display-image h2 h5 p{
+    padding-left: 20px;
+}
+.display-image h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #18191F;
+    line-height: 40px;
+
+}
+.display-image h5{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #000000DE;
+}
+.display-image p{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 100px;
+    color: #787885;
+}
+.feature-image{
+    width: 404px;
+    height: 270px;
+    border-radius: 8px;
+    /* border: 2px solid green; */
+    align-items: center;
+    justify-content: center;
+
+}
+.feature-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.feature-text{
+    text-align: center;
+    width: 100%;
+}
+.feature-text h1{
+    width: 610px;
+    height: 60px;
+    padding-left: 72px;
+    font-size: 38px;
+    line-height: 55px;
+    font-weight: 700;
+    color: #0A0826;
+}
+.feature-text p{
+    color: #6C6C6C;
+    font-size: 16px;
+    font-weight: 300;
+    width: 510px;
+    height: 88px;
+    text-align: center;
+    padding-left: 72px;
+}
+.btn-primary{
+     align-items: center;
+     margin-right: 600px;
+}
